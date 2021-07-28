@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Get Sam from Airport"
+}
+
+###
+DELETE http://localhost:3001/todo/delete/60f78e0ae73aaa0c44d017f6
+
+###
+GET http://localhost:3001/todo/complete/60f77e92eced084e9411c616
+
+###
+PUT http://localhost:3001/todo/complete/60f77e92eced084e9411c616
